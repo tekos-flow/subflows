@@ -2,7 +2,12 @@
     "name": "subflows",
     "description": "A Node-RED Project",
     "version": "0.0.1",
-    "dependencies": {},
+    "dependencies": {
+        "node-red-contrib-tekosbot": "0.0.28",
+        "node-red-contrib-aws-sdk": "0.1.7",
+        "node-red-node-email": "1.7.3",
+        "node-red-contrib-http-request": "0.1.14"
+    },
     "node-red": {
         "settings": {
             "flowFile": "flows.json",
